@@ -61,7 +61,7 @@ public class PlayerTime extends JavaPlugin {
                 return true;
         	}
         }if (args[0].equalsIgnoreCase("reset")) {
-        	if(p.hasPermission("playertime.reset")) {
+        	if(p.hasPermission("playertime.reset")) { 
                 p.resetPlayerTime();
                 p.sendMessage(g + "[PlayerTime] " + r + "You set your time to the normal server-time.");
                 return true;
