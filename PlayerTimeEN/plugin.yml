@@ -1,0 +1,8 @@
+name: PlayerTime
+version: 0.2
+main: me.DJdur.PlayerTime.plugin.PlayerTime
+author: DJdur
+commands:
+    time:
+        description: Sets your time.
+        usage: /<command>
